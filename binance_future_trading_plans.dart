@@ -37,7 +37,7 @@ void main() {
   print(
       "\n---------------------------------------------------------------------------------");
 
-  const currentBudgetForDayInUsdt = 11.81605876;
+  const currentBudgetForDayInUsdt = 11.55266943;
   print("\nCurrent budget for the day : $currentBudgetForDayInUsdt USDT");
   print(
       "Available trades for the day using $currentBudgetForDayInUsdt USDT : ${(currentBudgetForDayInUsdt / capitalForEachTrade).ceil()} (Trade Size Multiplier : $sizeForEachTradeMultiplier)");
